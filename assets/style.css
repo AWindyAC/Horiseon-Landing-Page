@@ -49,10 +49,10 @@
 
 .logo /* My Name */
 {
-    font-size: 3vw;
+    font-size: 30px;
     color: white;
     cursor: pointer;
-    margin-left: 5%;
+    margin-left: -49%;
 }
 
 .navbar ul li /* styling the nav links */
@@ -106,11 +106,11 @@ span
 
 .hero h2
 {
-    font-size: 5vw;
+    font-size: 70px;
 }
 .hero p
 {
-    font-size: 3vw;
+    font-size: 40px;
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
@@ -154,7 +154,7 @@ span
 .info p
 {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     padding: 20px;
     padding-left: 22%;
 }
@@ -270,7 +270,7 @@ span
     {
         width: 100px;
         height: 100px;
-        background-color: var(--charcoal);
+        background-color: var(--naples-yellow);
         border-radius: 250px;
         float: left;
         margin-left: 2%;
