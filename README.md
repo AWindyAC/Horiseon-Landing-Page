@@ -1,3 +1,6 @@
+# Sources I pulled from: YouTube, CodePen, and Google 
+# I used this video the create the top half of my page.
+
 # 02 Advanced CSS: Portfolio
 
 ## Your Task
