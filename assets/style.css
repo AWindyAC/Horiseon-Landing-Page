@@ -52,7 +52,7 @@
     font-size: 30px;
     color: white;
     cursor: pointer;
-    margin-left: -49%;
+    margin-left: 5%;
 }
 
 .navbar ul li /* styling the nav links */
@@ -116,51 +116,6 @@ span
     line-height: 25px;
 } 
 
-/*----> CSS for the <aside> element. The left portions below the hero <----*/
-
-/* !!! This could be the cause of some alignment issues. !!! */
-
-.aside
-{
-    text-align: center;
-    margin-left: 0%;
-    padding-right: 1%;
-    
-    /* This is what puts About Me, My Work, and Contact Me to the side */
-    float: left;
-    width: 20%;
-    height: 100%;
-    border-right: 5px solid var(--rich-black);
-    background-color: var(--charcoal);
-}
-
-
-.aside h2
-{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 200px;
-    padding-left: 20%;
-    font-size: 40px;
-    color: white;
-}
-
-.info
-{
-    width: 100%;
-    height: 500px;
-    background-color: var(--charcoal);
-}
-
-.info p
-{
-    color: white;
-    font-size: 25px;
-    padding: 20px;
-    padding-left: 22%;
-}
-
-
-
 /* -------------->  CSS Code for the "My Work image boxes" <-----------------  */
 
     /* ---------> CSS for the Footer <---------*/
@@ -188,17 +143,18 @@ span
     {
         display:flex;
         justify-content: space-evenly;
-
+        background-color: #009688;
+        border: solid black 5px;
     }
 
     .item
     {
-        width: 370px;
+        width: 15rem;
         height: 350px;
-        
         border: 5px solid #009688;
         filter: grayscale(100%);
         -webkit-filter: grayscale(100%);
+        background-position: -10vw, 0;
     }
         a:link
         {
@@ -213,25 +169,18 @@ span
         {
             font-size: 20px;
             color: white;
+            background: transparent;
             background-color: #009688;
             font-family: sans-serif;
             padding-top: 2%;
             padding-bottom: 2%;
-            margin-top: 40%;
+            margin-top: 50%;
         }
 
         .item:hover h3
         {
             background-color: var(--naples-yellow);
             color: var(--blue);
-        }
-
-        .item img /* Setting parameters for any image I have in a "container" class */
-        {
-            width: 370px;
-            height: 340px;
-            filter: grayscale(100%);
-            -webkit-filter: grayscale(100%);
         }
 
         .item:hover
@@ -243,44 +192,30 @@ span
     
         .item-1
         {
-            background-image: url(Character1.jpg);
+            background-image: url(https://user-images.githubusercontent.com/123840237/231037221-5a59ef4f-7f0d-4558-95bc-7d79b0fe1d5a.JPG);
             background-size: cover;
             background-repeat: no-repeat;
         }
 
         .item-2
         {
-            background-image: url(Character2.jpg);
+            background-image: url(https://github.com/miamreid/movies4u/raw/main/Assets/scntshot-results.png);
             background-size: cover;
             background-repeat: no-repeat;
         }
 
         .item-3
         {
-            background-image: url(Character3.jpg);
+            background-image: url(https://user-images.githubusercontent.com/123840237/231036816-eb7aa7cd-2a56-43af-bbd6-79b475407f3a.JPG);
             background-size: cover;
             background-repeat: no-repeat;
+            background-position: -8vw, 0;
         }
 
-
-
-/* -------------->  Styling the picture of me <-----------------  */
-
-    .Profile
-    {
-        width: 100px;
-        height: 100px;
-        background-color: var(--naples-yellow);
-        border-radius: 250px;
-        float: left;
-        margin-left: 2%;
-    }
-        .Profile img
+        .item-4
         {
-            width: 100px;
-            height: 100px;
-            border-radius: 250px;
-            -webkit-transform: scaleX(-1);
-            transform: scaleX(-1);
+            background-image: url(https://user-images.githubusercontent.com/123840237/235564755-5eeb2e8c-cb53-4087-9e73-4820c76e89d2.JPG);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: -3.5vw, 0;
         }
-
