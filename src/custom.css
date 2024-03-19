@@ -1,0 +1,22 @@
+.navbar.center .navbar-inner {
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover{
+    color: grey;
+}
+
+.nav-link:active{
+    color: grey;
+}
