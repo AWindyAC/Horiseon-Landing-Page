@@ -20,3 +20,43 @@
 .nav-link:active{
     color: grey;
 }
+
+.hide{
+    display: none;
+}
+
+.experience{
+    color: black;
+}
+.experience li{
+    border-left: black 5px solid;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.experience button{
+    border: none;
+    background: none;
+}
+.experience button:hover{
+    color: gray;
+}
+.experience-list{
+    list-style-type: none;
+}
+.experience-list li:hover{
+    color: gray;
+    border-left: gray 5px solid;
+}
+.btn-group-vertical button{
+    background: none;
+    border: none;
+    border-left: black 5px solid;
+    border-radius: 0;
+    font-size: 1.5rem;
+}
+.btn-group-vertical button:hover{
+    color: gray;
+    border-left: gray 5px solid;
+    background: none;
+}
