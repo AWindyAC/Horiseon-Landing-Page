@@ -63,4 +63,7 @@
 .wendell-photo{
     background-color: black;
     border-radius: 5%;
+    max-width: 100%;
+    height: auto;
+
 }
